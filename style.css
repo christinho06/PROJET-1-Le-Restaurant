@@ -1,0 +1,28 @@
+/* style.css */
+
+/* 1. Section Héros (L'image d'accueil) */
+.hero-restaurant {
+    /* Image de fond sombre pour que le texte blanc soit lisible */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;       /* L'image couvre tout l'espace */
+    background-position: center;  /* L'image est centrée */
+    height: 600px;                /* Hauteur de la section */
+    display: flex;                /* Permet de centrer le contenu verticalement */
+    align-items: center;
+    justify-content: center;
+    color: white;                 /* Texte en blanc */
+}
+
+/* 2. Images des cartes */
+.card-img-custom {
+    height: 200px;        /* Force toutes les images à la même hauteur */
+    object-fit: cover;    /* Recadre l'image sans la déformer */
+}
+
+/* 3. Pied de page */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
